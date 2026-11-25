@@ -30,7 +30,60 @@ Second, we have deliberately not chosen a programming language, framework or dat
 
 ---
 
-## 1. Product overview
+## 1. User stories
+
+**Finding food**
+
+- As a student I want to see which cafeterias are open right now, so I do not walk to a closed one.
+- As a student I want to see the meal, the price and what is in it, so I can decide without asking anybody.
+- As a student I want to see how many portions are left, so I do not order something that is finished.
+- As a student with a dietary need I want to filter the menu, so I do not find out at the counter that the only thing I can eat is gone.
+
+**Choosing a time**
+
+- As a student I want to pick a pickup time and see if it is free, so I can fit it between lectures.
+- As a student I want to be told clearly when a time is full, so I am not promised something the kitchen cannot do.
+- As a student I want my meal held while I pay, so it is not taken from me in the middle of paying.
+- As a student I want to cancel before the deadline and know whether I get my money back, so a change of plan is not a loss.
+
+**Paying**
+
+- As a student I want to pay inside the site, so I do not have to send screenshots to anybody.
+- As a student I want a clear message that my payment worked, so I know whether to start walking.
+- As a student, if my payment fails I want my time slot handled fairly, so a bad network does not cost me lunch.
+
+**Collecting**
+
+- As a student I want a code on my phone that works only once, so nobody else can use it.
+- As a student I want that code to work even when the network is down at the counter, so I am not punished for something I cannot control.
+- As a student I want to know my food is ready before I walk over, so I do not wait at the counter instead.
+
+**For the kitchen**
+
+- As a cafeteria owner I want one list of orders by time, so I can cook in batches.
+- As a cafeteria owner I want to accept or reject an order, so I stay in control.
+- As a cafeteria owner I want to mark an item as finished, so the menu matches what is actually left.
+- As a cafeteria owner I want to set how many portions each time window can take, so I am never promised more than I can cook.
+- As a cafeteria owner I want to check a pickup code in one tap, so the counter does not slow down.
+- As a cafeteria owner I want a daily statement, so I can match money received with meals served.
+
+**For the administration**
+
+- As an administrator I want to add and suspend cafeterias, so only approved kitchens sell food.
+- As an administrator I want a weekly report, so complaints become numbers.
+- As an administrator I want a full record of every order, so disputes can be settled with facts.
+
+**Trust**
+
+- As a student, if the kitchen cannot fulfil my order, I want my money back without begging anybody.
+- As a cafeteria owner, if a student does not show up, I want a rule that is applied the same way every time.
+- As a student I want to know my data is not being sold, so using this does not cost me privacy.
+
+---
+
+---
+
+## 2. Product overview
 
 ChowLine is a website where a student orders food from a campus cafeteria ahead of time and picks a time to collect it.
 
@@ -44,7 +97,7 @@ The first version covers one campus, three to five cafeterias, students only, pa
 
 ---
 
-## 2. The problem
+## 3. The problem
 
 ### 2.1 What we see at lunch
 
@@ -117,7 +170,7 @@ On our campus, thousands of students have to eat inside the same short windows e
 
 ---
 
-## 3. Research
+## 4. Research
 
 ### 3.1 What we wanted to find out
 
@@ -210,7 +263,7 @@ We agreed on this before starting, so we cannot pretend afterwards that we alway
 
 ---
 
-## 4. Business objectives
+## 5. Business objectives
 
 | # | What we want | How we will know |
 |---|---|---|
@@ -224,7 +277,7 @@ We are not trying to change how the university bills students, replace the finan
 
 ---
 
-## 5. Target users
+## 6. Target users
 
 ### Tolu, 200 level, lives on campus
 
@@ -254,7 +307,7 @@ Students who want food delivered to their hostel room. That is a different produ
 
 ---
 
-## 6. Stakeholders
+## 7. Stakeholders
 
 | Who | What they care about | How much say they have | How we work with them |
 |---|---|---|---|
@@ -265,57 +318,6 @@ Students who want food delivered to their hostel room. That is a different produ
 | University IT | Internet and security | Medium | Ask about campus network limits early |
 | Payment provider | Verification, settlement, disputes | Medium | Read their rules before designing anything |
 | Group 8 and our lecturer | Delivering what we promised | High | Weekly check against this document |
-
----
-
-## 7. User stories
-
-**Finding food**
-
-- As a student I want to see which cafeterias are open right now, so I do not walk to a closed one.
-- As a student I want to see the meal, the price and what is in it, so I can decide without asking anybody.
-- As a student I want to see how many portions are left, so I do not order something that is finished.
-- As a student with a dietary need I want to filter the menu, so I do not find out at the counter that the only thing I can eat is gone.
-
-**Choosing a time**
-
-- As a student I want to pick a pickup time and see if it is free, so I can fit it between lectures.
-- As a student I want to be told clearly when a time is full, so I am not promised something the kitchen cannot do.
-- As a student I want my meal held while I pay, so it is not taken from me in the middle of paying.
-- As a student I want to cancel before the deadline and know whether I get my money back, so a change of plan is not a loss.
-
-**Paying**
-
-- As a student I want to pay inside the site, so I do not have to send screenshots to anybody.
-- As a student I want a clear message that my payment worked, so I know whether to start walking.
-- As a student, if my payment fails I want my time slot handled fairly, so a bad network does not cost me lunch.
-
-**Collecting**
-
-- As a student I want a code on my phone that works only once, so nobody else can use it.
-- As a student I want that code to work even when the network is down at the counter, so I am not punished for something I cannot control.
-- As a student I want to know my food is ready before I walk over, so I do not wait at the counter instead.
-
-**For the kitchen**
-
-- As a cafeteria owner I want one list of orders by time, so I can cook in batches.
-- As a cafeteria owner I want to accept or reject an order, so I stay in control.
-- As a cafeteria owner I want to mark an item as finished, so the menu matches what is actually left.
-- As a cafeteria owner I want to set how many portions each time window can take, so I am never promised more than I can cook.
-- As a cafeteria owner I want to check a pickup code in one tap, so the counter does not slow down.
-- As a cafeteria owner I want a daily statement, so I can match money received with meals served.
-
-**For the administration**
-
-- As an administrator I want to add and suspend cafeterias, so only approved kitchens sell food.
-- As an administrator I want a weekly report, so complaints become numbers.
-- As an administrator I want a full record of every order, so disputes can be settled with facts.
-
-**Trust**
-
-- As a student, if the kitchen cannot fulfil my order, I want my money back without begging anybody.
-- As a cafeteria owner, if a student does not show up, I want a rule that is applied the same way every time.
-- As a student I want to know my data is not being sold, so using this does not cost me privacy.
 
 ---
 
@@ -593,7 +595,7 @@ These are the checks we will run before we say a feature is done.
 
 | # | We are assuming | How we will check |
 |---|---|---|
-| A1 | The kitchen is being asked for more than it can produce at peak | The calculation in section 3.3 |
+| A1 | The kitchen is being asked for more than it can produce at peak | The calculation in section 4.3 |
 | A2 | Serving one student takes about 25 to 40 seconds | Our own timing |
 | A3 | Students have a smartphone with data and will use a website | Survey |
 | A4 | At least one cafeteria will try it without being paid to | Interviews |
@@ -611,7 +613,7 @@ These are the checks we will run before we say a feature is done.
 | 3 | Is a limit a number of orders, or a number of plates of each meal? | Decides how we store limits | Owner interviews | Before we design the menu |
 | 4 | How does an owner think about their limit in real life? | The number has to mean something to the person setting it | Owner interviews | Before we build the kitchen screen |
 | 5 | Can a student give their pickup time to a friend? | Affects identity and fraud rules | Student interviews and school policy | Before the first version |
-| 6 | Will owners share how much food they waste? | We need it to show value to them | Owner interviews | Before section 3.3 is finished |
+| 6 | Will owners share how much food they waste? | We need it to show value to them | Owner interviews | Before section 4.3 is finished |
 | 7 | How long is the refund window, and who loses money on a no-show? | Fairness, and whether we can afford it | Owners and admin | Before the pilot agreement |
 | 8 | Does the school need to approve us taking payments on campus? | It could stop the project | Admin interview | Immediately |
 | 9 | How far in advance can somebody order? | Affects how long we hold orders and how the kitchen plans | Owner interviews | Before the first version |
@@ -809,7 +811,7 @@ Each of these has to be checked and cited properly with a date before we submit.
 - Queue timing sheets, sessions O-1 to O-6
 - Survey responses, saved with the date they came in
 - Interview notes, anonymised and kept separate from this document
-- A list of every claim in section 3 and where it came from
+- A list of every claim in section 4 and where it came from
 
 **Payment provider**
 
@@ -837,6 +839,7 @@ Each of these has to be checked and cited properly with a date before we submit.
 | 0.2 | | Fieldwork done, research section filled in | Group 8 |
 | 0.3 | | Solution and requirements written | Group 8 |
 | 1.0 | | Reviewed, first version agreed | Group 8 |
+| 1.1 | | Moved user stories to the top | Group 8 |
 
 ---
 
